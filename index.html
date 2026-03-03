@@ -26,27 +26,28 @@
        HEADER — Sticky with phone CTA
   ════════════════════════════════════════════ -->
   <header class="header" id="header">
+    <div class="header__top-bar">
+      <div class="container header__top-inner">
+        <span class="header__marketplace">سوق المشير — سوق الصناعات المحلية</span>
+        <a href="tel:0924767353" class="header__phone-link">
+          <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          0924767353
+        </a>
+      </div>
+    </div>
     <nav class="header__nav">
       <div class="container header__nav-inner">
-        <a href="#hero" class="header__logo">
+          <a href="#hero" class="header__logo">
           <img src="assets/logo.png" alt="شركة الدقة اللامعه" class="header__logo-img" width="50" height="50" />
-          <div class="header__logo-group">
-            <span class="header__logo-text">الدقة اللامعه</span>
-            <span class="header__logo-sub">سوق المشير — سوق الصناعات المحلية</span>
-          </div>
+          <span class="header__logo-text">الدقة اللامعه</span>
         </a>
         <ul class="header__menu" id="navMenu">
           <li><a href="#hero" class="header__link">الرئيسية</a></li>
           <li><a href="#collections" class="header__link">المجموعات</a></li>
           <li><a href="#about" class="header__link">عن الشركة</a></li>
           <li><a href="#services" class="header__link">خدماتنا</a></li>
+          
         </ul>
-        <div class="header__contact">
-          <a href="tel:0924767353" class="header__phone-btn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-            0924767353
-          </a>
-        </div>
         <button class="header__hamburger" id="hamburger" aria-label="فتح القائمة" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
@@ -95,6 +96,26 @@
       </div>
       <h1 class="hero__title">مجوهرات ومعادن ثمينة أصلية<br/><span class="hero__title-accent">— جملة وتجزئة —</span></h1>
       <p class="hero__subtitle">مصدّركم الموثوق للحلي والمعادن المختومة. اتصل الآن: <a href="tel:0924767353" class="hero__phone">0924767353</a></p>
+      
+      <!-- Company Official Info Badge -->
+      <div class="hero__info-badge">
+        <h2 class="hero__info-name">شركة الدقة اللامعة لاستيراد الحلي والمجوهرات والمعادن الثمينة</h2>
+        <div class="hero__info-grid">
+          <div class="hero__info-item">
+            <span class="hero__info-label">سجل تجاري</span>
+            <span class="hero__info-val">04/6715</span>
+          </div>
+          <div class="hero__info-item">
+            <span class="hero__info-label">رقم ضريبي</span>
+            <span class="hero__info-val">21791</span>
+          </div>
+          <div class="hero__info-item">
+            <span class="hero__info-label">سنة التأسيس</span>
+            <span class="hero__info-val">2025/03/25</span>
+          </div>
+        </div>
+      </div>
+
       <div class="hero__actions">
         <a href="#collections" class="btn btn--primary">استعرض المجموعات</a>
       </div>
