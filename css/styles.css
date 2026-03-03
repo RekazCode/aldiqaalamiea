@@ -1253,6 +1253,27 @@ a.contact__detail-value { color: var(--color-gold-primary); }
   .contact__grid { grid-template-columns: 1fr 1fr; }
 }
 
+/* Contact Map */
+.contact__map {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
+}
+
+.contact__map iframe {
+  display: block;
+  width: 100%;
+  min-height: 300px;
+}
+
+@media (min-width: 768px) {
+  .contact__map iframe {
+    min-height: 350px;
+  }
+}
+
 /* ─────────────────────────────────────────────
    FOOTER
    ───────────────────────────────────────────── */
